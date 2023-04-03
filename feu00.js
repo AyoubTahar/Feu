@@ -19,7 +19,7 @@ function Forme(collone, ligne) {
           longeur += "-";
         }
         if (collone > 1) {
-          longeur += "o";
+          longeur += "o"
           console.log(longeur);
         }
         console.log(longeur);
