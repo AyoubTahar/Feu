@@ -20,11 +20,10 @@ function Forme(collone, ligne) {
         }
         if (collone > 1) {
           longeur += "o"
-          console.log(longeur);
         }
         console.log(longeur);
       }
-      if (i == ligne - 1 && i > 1) {
+      if (i == ligne - 1 && i > 0) {
         let longeur = "o";
         for (let j = 0; j < collone - 2; j++) {
           longeur += "-";
@@ -44,7 +43,6 @@ function Forme(collone, ligne) {
         }
         if (collone > 1) {
           longeur += "|";
-          console.log(longeur);
         }
         console.log(longeur);
       }
